@@ -1,0 +1,14 @@
+{
+  "name": "neon-clash-arena",
+  "version": "12.0.0",
+  "private": true,
+  "description": "Neon Clash Arena — 2–3 player real-time PvP arena fighter. Includes local Node server and Cloudflare Workers + Durable Objects deployment.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "latest"
+  }
+}
